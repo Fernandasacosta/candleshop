@@ -2,8 +2,8 @@
   "name": "turbo.repo",
   "private": true,
   "scripts": {
-    "build": "turbo run build --filter=apps/frontend",
-    "dev": "turbo dev --filter=apps/frontend",
+    "build": "turbo build",
+    "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
