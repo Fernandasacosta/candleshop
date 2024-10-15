@@ -2,6 +2,8 @@ import { Body, Controller, Delete, Get, Param, Post } from '@nestjs/common';
 import { ProdutoPrisma } from './produto.prisma';
 import { Produto } from '@gstore/core';
 
+
+
 @Controller('produtos')
 export class ProdutoController {
   constructor(private readonly repo: ProdutoPrisma) {}
