@@ -1,7 +1,1 @@
-{
-  "builds": [
-    { "src": "apps/frontend/next.config.js", "use": "@vercel/next" }
-  ],
-  "framework": "nextjs",
-  "outputDirectory": "apps/frontend/.next"
-}
+{ "rewrites": [{ "source": "/(.*)", "destination": "/" }] }
