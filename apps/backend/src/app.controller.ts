@@ -1,7 +1,5 @@
 import { Controller, Get } from '@nestjs/common';
 
-// controller raiz
-
 @Controller()
 export class AppController {
   @Get('ping')
@@ -9,5 +7,3 @@ export class AppController {
     return 'pong';
   }
 }
-
-

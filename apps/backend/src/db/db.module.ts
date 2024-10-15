@@ -3,6 +3,6 @@ import { PrismaProvider } from './prisma.provider';
 
 @Module({
   providers: [PrismaProvider],
-  exports: [PrismaProvider]
+  exports: [PrismaProvider],
 })
 export class DbModule {}
